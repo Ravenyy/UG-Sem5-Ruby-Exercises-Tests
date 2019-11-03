@@ -4,4 +4,7 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# gem "rails"
+group :test do
+    gem 'minitest', '~> 5.13.0'
+    gem 'simplecov', '~> 0.17.1', require: false
+end
