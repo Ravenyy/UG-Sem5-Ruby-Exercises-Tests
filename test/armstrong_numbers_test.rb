@@ -1,5 +1,8 @@
 require 'minitest/autorun'
 require_relative '../lib/armstrong_numbers'
+require 'simplecov'
+SimpleCov.start
+
 
 # Common test data version: 1.1.0 b3c2522
 class ArmstrongNumbersTest < Minitest::Test

@@ -5,6 +5,9 @@ Write your code for the 'Custom Set' exercise in this file. Make the tests in
 To get started with TDD, see the `README.md` file in your
 `ruby/custom-set` directory.
 =end
+require 'simplecov'
+SimpleCov.start
+
 
 class CustomSet 
     attr_reader :elements

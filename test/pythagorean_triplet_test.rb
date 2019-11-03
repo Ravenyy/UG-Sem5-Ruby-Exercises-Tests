@@ -1,5 +1,8 @@
 require 'minitest/autorun'
 require_relative '../lib/pythagorean_triplet'
+require 'simplecov'
+SimpleCov.start
+
 
 class TripletTest < Minitest::Test
   def test_sum

@@ -1,5 +1,8 @@
 require 'minitest/autorun'
 require_relative '../lib/matrix'
+require 'simplecov'
+SimpleCov.start
+
 
 class MatrixTest < Minitest::Test
   def test_extract_a_row

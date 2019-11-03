@@ -5,6 +5,9 @@ Write your code for the 'Pythagorean Triplet' exercise in this file. Make the te
 To get started with TDD, see the `README.md` file in your
 `ruby/pythagorean-triplet` directory.
 =end
+require 'simplecov'
+SimpleCov.start
+
 
 class Triplet
     attr_reader :sum, :product

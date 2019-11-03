@@ -5,6 +5,9 @@ Write your code for the 'Sum Of Multiples' exercise in this file. Make the tests
 To get started with TDD, see the `README.md` file in your
 `ruby/sum-of-multiples` directory.
 =end
+require 'simplecov'
+SimpleCov.start
+
 
 class SumOfMultiples
     def initialize(*args)

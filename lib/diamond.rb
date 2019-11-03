@@ -5,6 +5,9 @@ Write your code for the 'Diamond' exercise in this file. Make the tests in
 To get started with TDD, see the `README.md` file in your
 `ruby/diamond` directory.
 =end
+require 'simplecov'
+SimpleCov.start
+
 
 module Diamond
     ALPHABET = ('A'..'Z').to_a.join
