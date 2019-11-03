@@ -3,7 +3,6 @@ require_relative '../lib/armstrong_numbers'
 require 'simplecov'
 SimpleCov.start
 
-
 # Common test data version: 1.1.0 b3c2522
 class ArmstrongNumbersTest < Minitest::Test
   def test_zero_is_an_armstrong_number
@@ -48,6 +47,6 @@ class ArmstrongNumbersTest < Minitest::Test
 
   def test_seven_digit_number_that_is_not_an_armstrong_number
     #skip
-    #refute ArmstrongNumbers.include?(9_926_314)
+    refute ArmstrongNumbers.include?(9_926_314)
   end
 end
