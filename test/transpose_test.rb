@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'transpose'
+require_relative '../lib/transpose'
 
 # Common test data version: 1.1.0 92bc877
 class TransposeTest < Minitest::Test

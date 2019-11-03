@@ -1,6 +1,25 @@
 language: ruby
+before_install:
+  - gem update --system
+  - gem install bundler
 rvm:
   - 2.3
   - 2.6
 script:
   - bundle exec ruby test/acronym_test.rb
+  - bundle exec ruby test/armstrong_numbers_test.rb
+  - bundle exec ruby test/book_store_test.rb
+  - bundle exec ruby test/custom_set_test.rb
+  - bundle exec ruby test/diamond_test.rb
+  - bundle exec ruby test/gigasecond_test.rb
+  - bundle exec ruby test/grade_school_test.rb
+  - bundle exec ruby test/hamming_test.rb
+  - bundle exec ruby test/hello_world_test.rb
+  - bundle exec ruby test/high_scores_test.rb
+  - bundle exec ruby test/matrix_test.rb
+  - bundle exec ruby test/pythagorean_triplet_test.rb
+  - bundle exec ruby test/resistor_color_duo_test.rb
+  - bundle exec ruby test/run_length_encoding_test.rb
+  - bundle exec ruby test/sum_of_multiples_test.rb
+  - bundle exec ruby test/transpose_test.rb
+  - bundle exec ruby test/two_fer_test.rb
