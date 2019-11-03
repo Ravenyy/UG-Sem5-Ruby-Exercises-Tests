@@ -23,3 +23,4 @@ script:
   - bundle exec ruby test/sum_of_multiples_test.rb
   - bundle exec ruby test/transpose_test.rb
   - bundle exec ruby test/two_fer_test.rb
+  - bundle exec rspec
