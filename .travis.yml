@@ -40,4 +40,4 @@ script:
 
 after_script:            
  # - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter upload-coverage; fi 
-  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULTpsankowski@linux-p110-12:~/ruby-tests
+ # - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULTpsankowski@linux-p110-12:~/ruby-tests
