@@ -1,8 +1,8 @@
 language: ruby
 
-env:
-  global:
-  CC_TEST_REPORTER_ID=1a329d3252cc729376937fb3b4922c017f1e9e27e45a1c1cd456182525d2a0fa
+#env:
+  #global:
+  #CC_TEST_REPORTER_ID=1a329d3252cc729376937fb3b4922c017f1e9e27e45a1c1cd456182525d2a0fa
 
 before_install:
   - gem update --system
