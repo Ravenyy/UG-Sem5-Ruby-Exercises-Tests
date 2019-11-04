@@ -3,6 +3,7 @@ require_relative '../lib/matrix'
 require 'simplecov'
 SimpleCov.start
 
+matrix = Matrix.new "t e m p"
 RSpec.describe Matrix do
   describe "matrix" do
     it 'extracts a row' do
