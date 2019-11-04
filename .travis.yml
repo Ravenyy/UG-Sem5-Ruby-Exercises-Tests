@@ -5,13 +5,14 @@ env:
   CC_TEST_REPORTER_ID=1a329d3252cc729376937fb3b4922c017f1e9e27e45a1c1cd456182525d2a0fa
 
 before_install:
-   - gem update --system
-    - gem install bundler
-  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-  - chmod +x ./cc-test-reporter
+  - gem update --system
+  - gem install bundler
+ # - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+ # - chmod +x ./cc-test-reporter
 
 rvm:
   - 2.3
+  - 2.5
   - 2.6
 
 script:
@@ -34,8 +35,8 @@ script:
   - bundle exec ruby test/two_fer_test.rb
   - bundle exec rspec
 
-after_script:
-  - ./cc-test-reporter format-coverage -t simplecov -o coverage/codeclimate.backend.json coverage/backend/.resultset.json
-  - ./cc-test-reporter format-coverage -t lcov -o coverage/codeclimate.frontend.json coverage/frontend/lcov.info 
-  - ./cc-test-reporter sum-coverage coverage/codeclimate.*.json -p 2                 
-  - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter upload-coverage; fi 
+#after_script:
+ # - ./cc-test-reporter format-coverage -t simplecov -o coverage/codeclimate.backend.json coverage/backend/.resultset.json
+ # - ./cc-test-reporter format-coverage -t lcov -o coverage/codeclimate.frontend.json coverage/frontend/lcov.info 
+ # - ./cc-test-reporter sum-coverage coverage/codeclimate.*.json -p 2                 
+ # - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter upload-coverage; fi 
