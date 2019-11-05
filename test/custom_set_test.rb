@@ -1,7 +1,6 @@
 require 'minitest/autorun'
 require_relative '../lib/custom_set'
-require 'simplecov'
-SimpleCov.start
+
 
 
 # Common test data version: 1.3.0 1ef368e

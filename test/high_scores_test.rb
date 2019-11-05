@@ -1,7 +1,6 @@
 require 'minitest/autorun'
 require_relative '../lib/high_scores'
-require 'simplecov'
-SimpleCov.start
+
 
 
 # Common test data version: 5.0.0 7dfb96c

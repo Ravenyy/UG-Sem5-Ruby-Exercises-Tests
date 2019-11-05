@@ -1,7 +1,5 @@
 require 'minitest/autorun'
 require_relative '../lib/acronym'
-require 'simplecov'
-SimpleCov.start
 
 # Common test data version: 1.7.0 cacf1f1
 class AcronymTest < Minitest::Test

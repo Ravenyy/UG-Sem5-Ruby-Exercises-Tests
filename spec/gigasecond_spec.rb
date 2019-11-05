@@ -1,7 +1,6 @@
 require 'rspec/core'
 require_relative '../lib/gigasecond'
-require 'simplecov'
-SimpleCov.start
+
 
 RSpec.describe Gigasecond do
   describe "gigasecond does what gigasecond wants to" do

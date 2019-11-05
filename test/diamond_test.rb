@@ -1,7 +1,6 @@
 require 'minitest/autorun'
 require_relative '../lib/diamond'
-require 'simplecov'
-SimpleCov.start
+
 
 
 class DiamondTest < Minitest::Test

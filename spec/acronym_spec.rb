@@ -1,7 +1,6 @@
 require 'rspec/core'
 require_relative '../lib/acronym'
-require 'simplecov'
-SimpleCov.start
+
 
 ACRONYM_PAIRS = {
   'Portable Network Graphics' => 'PNG',

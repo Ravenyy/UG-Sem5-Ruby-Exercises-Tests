@@ -1,7 +1,6 @@
 require 'rspec/core'
 require_relative '../lib/diamond'
-require 'simplecov'
-SimpleCov.start
+
 
 RSpec.describe Diamond do
   describe '.make_diamond(letter)' do

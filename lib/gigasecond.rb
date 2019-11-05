@@ -5,9 +5,6 @@ Write your code for the 'Gigasecond' exercise in this file. Make the tests in
 To get started with TDD, see the `README.md` file in your
 `ruby/gigasecond` directory.
 =end
-require 'simplecov'
-SimpleCov.start
-
 
 class Gigasecond
     GIGASECOND = 10**9

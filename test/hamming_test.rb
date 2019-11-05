@@ -1,7 +1,6 @@
 require 'minitest/autorun'
 require_relative '../lib/hamming'
-require 'simplecov'
-SimpleCov.start
+
 
 
 # Common test data version: 2.2.0 4c453c8

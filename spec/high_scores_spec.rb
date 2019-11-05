@@ -1,7 +1,6 @@
 require 'rspec/core'
 require_relative '../lib/high_scores'
-require 'simplecov'
-SimpleCov.start
+
 
 SCOREZ = [0, 13, 22, 100, 40, 38, 77]
 

@@ -1,7 +1,6 @@
 require 'rspec/core'
 require_relative '../lib/hamming'
-require 'simplecov'
-SimpleCov.start
+
 
 RSpec.describe Hamming do
   describe ".compute(1st, 2nd)" do

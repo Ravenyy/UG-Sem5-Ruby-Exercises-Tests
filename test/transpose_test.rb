@@ -1,7 +1,5 @@
 require 'minitest/autorun'
 require_relative '../lib/transpose'
-require 'simplecov'
-SimpleCov.start
 
 
 # Common test data version: 1.1.0 92bc877

@@ -5,9 +5,6 @@ Write your code for the 'Armstrong Numbers' exercise in this file. Make the test
 To get started with TDD, see the `README.md` file in your
 `ruby/armstrong-numbers` directory.
 =end
-require 'simplecov'
-SimpleCov.start
-
 class ArmstrongNumbers
     def self.include?(number)
         number == number.digits.sum{ |d| d**number.digits.size }

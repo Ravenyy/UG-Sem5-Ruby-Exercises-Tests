@@ -1,7 +1,5 @@
 require 'minitest/autorun'
 require_relative '../lib/matrix'
-require 'simplecov'
-SimpleCov.start
 
 
 class MatrixTest < Minitest::Test

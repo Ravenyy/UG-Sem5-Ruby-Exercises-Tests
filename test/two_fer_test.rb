@@ -1,7 +1,5 @@
 require 'minitest/autorun'
 require_relative '../lib/two_fer'
-require 'simplecov'
-SimpleCov.start
 
 
 # Common test data version: 1.2.0 4fc1acb

@@ -1,8 +1,5 @@
 require 'minitest/autorun'
 require_relative '../lib/sum_of_multiples'
-require 'simplecov'
-SimpleCov.start
-
 
 # Common test data version: 1.4.1 8f89751
 class SumOfMultiplesTest < Minitest::Test

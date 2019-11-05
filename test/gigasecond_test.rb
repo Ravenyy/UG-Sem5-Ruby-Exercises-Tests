@@ -1,7 +1,6 @@
 require 'minitest/autorun'
 require_relative '../lib/gigasecond'
-require 'simplecov'
-SimpleCov.start
+
 
 
 # Common test data version: 1.1.0 5506bac

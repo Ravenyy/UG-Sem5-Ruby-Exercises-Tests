@@ -1,7 +1,5 @@
 require 'minitest/autorun'
 require_relative '../lib/run_length_encoding'
-require 'simplecov'
-SimpleCov.start
 
 
 # Common test data version: 1.1.0 1b7900e

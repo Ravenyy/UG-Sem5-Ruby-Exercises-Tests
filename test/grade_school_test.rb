@@ -1,7 +1,6 @@
 require 'minitest/autorun'
 require_relative '../lib/grade_school'
-require 'simplecov'
-SimpleCov.start
+
 
 
 class SchoolTest < Minitest::Test

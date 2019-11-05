@@ -1,7 +1,6 @@
 require 'rspec/core'
 require_relative '../lib/armstrong_numbers'
-require 'simplecov'
-SimpleCov.start
+
 
 RSpec.describe ArmstrongNumbers do
   describe ".include(number)" do

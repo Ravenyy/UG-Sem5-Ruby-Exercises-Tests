@@ -1,7 +1,5 @@
 require 'minitest/autorun'
 require_relative '../lib/resistor_color_duo'
-require 'simplecov'
-SimpleCov.start
 
 
 # Common test data version: 2.1.0 00dda3a

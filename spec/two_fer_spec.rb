@@ -1,7 +1,5 @@
 require 'rspec/core'
 require_relative '../lib/two_fer'
-require 'simplecov'
-SimpleCov.start
 
 name = "Bartholomew"
 

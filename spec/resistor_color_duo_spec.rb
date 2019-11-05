@@ -1,7 +1,6 @@
 require 'rspec/core'
 require_relative '../lib/resistor_color_duo'
-require 'simplecov'
-SimpleCov.start
+
 
 RSpec.describe ResistorColorDuo do
   describe ".value(stripes)" do

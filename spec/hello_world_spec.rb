@@ -1,7 +1,6 @@
 require 'rspec/core'
 require_relative '../lib/hello_world'
-require 'simplecov'
-SimpleCov.start
+
 
 RSpec.describe HelloWorld do 
   describe "HelloWorld class" do 

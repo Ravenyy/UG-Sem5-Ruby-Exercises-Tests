@@ -1,7 +1,5 @@
 require 'minitest/autorun'
 require_relative '../lib/book_store'
-require 'simplecov'
-SimpleCov.start
 
 
 # Common test data version: 1.4.0 33c6b60
