@@ -3,27 +3,28 @@ require 'rspec/core'
 
 RSpec.describe BookStore do
   describe "Computes offered discount for"
+
   context " a single book" do
-    basket = [1]
-    expect(BookStore.calculate_price(basket)).to eq 8.0
+    subject { [1] }
+    it { is_expected.to respond_with 8.0 }
   end
 
-  context " two of the same book" do
+  it " two of the same book" do
     basket = [2, 2]
     expect(BookStore.calculate_price(basket)).to eq 16.00
   end
 
-  context " empty basket" do
+  it " empty basket" do
     basket = []
     expect(BookStore.calculate_price(basket)).to eq 0.00
   end
 
-  context " three different books" do
+  it " three different books" do
     basket = [1, 2, 3]
     itexpect(BookStore.calculate_price(basket)).to eq 21.60
   end
 
-  context " four different books" do
+  it " four different books" do
     basket = [1, 2, 3, 4]
     expect(BookStore.calculate_price(basket)).to eq 25.60
   end
