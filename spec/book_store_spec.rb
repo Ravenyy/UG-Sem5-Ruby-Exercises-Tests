@@ -2,7 +2,7 @@ require_relative '../lib/book_store'
 require 'rspec/core'
 
 RSpec.describe BookStore do
-  describe "Computes offered discount for"
+  describe "Computes offered discount for" do
 
   it " a single book" do
     basket = [1]
