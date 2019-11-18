@@ -5,12 +5,12 @@ RSpec.describe BookStore do
   describe "Computes offered discount for"
   context " a single book" do
     basket = [1]
-    it { expect(BookStore.calculate_price(basket)).to eq 8.0 }
+    expect(BookStore.calculate_price(basket)).to eq 8.0
   end
 
   context " two of the same book" do
     basket = [2, 2]
-   it { expect(BookStore.calculate_price(basket)).to eq 16.00 }
+    expect(BookStore.calculate_price(basket)).to eq 16.00
   end
 
   context " empty basket" do
@@ -18,12 +18,12 @@ RSpec.describe BookStore do
     expect(BookStore.calculate_price(basket)).to eq 0.00
   end
 
-  it " three different books" do
+  context " three different books" do
     basket = [1, 2, 3]
-    it { expect(BookStore.calculate_price(basket)).to eq 21.60 }
+    itexpect(BookStore.calculate_price(basket)).to eq 21.60
   end
 
-  it " four different books" do
+  context " four different books" do
     basket = [1, 2, 3, 4]
     expect(BookStore.calculate_price(basket)).to eq 25.60
   end
