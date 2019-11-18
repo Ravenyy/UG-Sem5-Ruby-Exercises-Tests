@@ -24,7 +24,6 @@ RSpec.describe HighScores do
     expect(HighScores.new(SCOREZ).latest_is_personal_best?).to be false
   end
   it "but it does if it's highest" do
-    SCOREZ = [0, 13, 22, 77, 40, 38, 100]
     expect(HighScores.new(SCOREZ).latest_is_personal_best?).to be true
   end
 end
