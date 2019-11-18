@@ -4,9 +4,9 @@ require 'rspec/core'
 RSpec.describe BookStore do
   describe "Computes offered discount for"
 
-  context " a single book" do
-    subject { basket = [1] }
-    it { is_expected.to respond_with 8.0 }
+  it " a single book" do
+    basket = [1]
+    expect(BookStore.calculate_price(basket)).to eq 8.0
   end
 
   it " two of the same book" do
