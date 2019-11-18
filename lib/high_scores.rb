@@ -8,25 +8,25 @@ To get started with TDD, see the `README.md` file in your
 
 
 class HighScores
-    attr_reader :scores
+  attr_reader :scores
   
-    def initialize(scores)
-      @scores = scores
-    end
-  
-    def personal_top_three
-      scores.sort.reverse.take(3)
-    end
-  
-    def personal_best
-      scores.max
-    end
-  
-    def latest
-      scores.last
-    end
-  
-    def latest_is_personal_best?
-      latest == personal_best
-    end
+  def initialize(scores)
+    @scores = scores
   end
+  
+  def personal_top_three
+    scores.sort.reverse.take(3)
+  end
+  
+  def personal_best
+    scores.max
+  end
+  
+  def latest
+    scores.last
+  end
+  
+  def latest_is_personal_best?
+    latest == personal_best
+  end
+end
